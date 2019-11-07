@@ -14,19 +14,27 @@
   "license": "ISC",
   "dependencies": {
     "@babel/register": "^7.7.0",
+    "autoprefixer": "^9.7.1",
     "babel-eslint": "^10.0.2",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-assign": "^6.22.0",
     "dotenv": "^8.2.0",
     "eslint": "^6.0.1",
     "eslint-config-airbnb": "^17.1.1",
+    "eslint-loader": "^3.0.2",
     "eslint-plugin-import": "^2.18.0",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.14.2",
     "express": "^4.17.1",
     "nodemon": "^1.19.4",
+    "postcss-loader": "^3.0.0",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-router-dom": "^5.0.1"
+    "react-hot-loader": "^4.12.16",
+    "react-router-dom": "^5.0.1",
+    "webpack-dev-middleware": "^3.7.2",
+    "webpack-hot-middleware": "^2.25.0"
   },
   "devDependencies": {
     "@babel/core": "^7.5.4",
